@@ -22131,6 +22131,6 @@ openssl/x509v3err.h
 /home/ivan/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Install/include/tag_enum.h
 
 /home/ivan/Git/lab9/sources/main.cpp
-header.h
-/home/ivan/Git/lab9/sources/header.h
+include/header.h
+/home/ivan/Git/lab9/sources/include/header.h
 

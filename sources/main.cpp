@@ -1,6 +1,6 @@
 // Copyright 2020 <LinkIvan333>
 
-#include "header.h"
+#include "include/header.h"
 
 int main(int argc, char **argv) {
   boost::program_options::options_description desc("asd");
@@ -12,7 +12,8 @@ int main(int argc, char **argv) {
       ("output", boost::program_options::value<std::string>());
   boost::program_options::variables_map vm;
   try {
-    boost::program_options::store(boost::program_options::parse_command_line(argc, argv, desc), vm);
+    boost::program_options::store(
+        boost::program_options::parse_command_line(argc, argv, desc), vm);
     boost::program_options::notify(vm);
   }
   catch (boost::program_options::error &e) {

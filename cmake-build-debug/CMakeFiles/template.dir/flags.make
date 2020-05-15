@@ -6,5 +6,5 @@ CXX_FLAGS =  -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ivan/Git/lab9/include -isystem /home/ivan/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Install/include 
+CXX_INCLUDES = -I/home/ivan/Git/lab9 -I/home/ivan/Git/lab9/include -isystem /home/ivan/.hunter/_Base/9a3594a/9b2c9d4/48401e9/Install/include 
 
